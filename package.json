@@ -4,9 +4,7 @@
   "description": "Training of different themes",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --output-style compressed index.scss > styles.css",
-    "scss:watch": "node-sass -w --output-style compressed index.scss > styles.css"
-   
+    "sass": "node-sass index.scss > index.css"
   },
   "repository": {
     "type": "git",
