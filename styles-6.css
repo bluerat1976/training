@@ -1,0 +1,23 @@
+body * {
+    margin: 10px;
+}
+#big {
+    color: #c4263b;
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+}
+
+#medium {
+  color: #2677c4;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+#small {
+  color: #e7e55e;
+  width: 200px;
+  height: 200px;
+  margin:25px;
+}

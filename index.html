@@ -1,20 +1,84 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>JavaScript learning</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel='stylesheet' href='styles.css' />
+  <meta charset="utf-8">
+  <style>
+    body * {
+      margin: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <h1> JavaScript</h1>
-  
-  <script src="./js/index-1.js"></script>
+  <h3>Javascript</h3>
 
+  <ul id="ul">
+    <li>пункт 1</li>
+    <li>пункт 2</li>
+    <li>пункт 3</li>
+    <li>пункт 4</li>
+    <li>пункт 5</li>
+  </ul>
+  <button id='button'>Add li</button>
+  
+  <script>
+
+    var ul = document.getElementById('ul');
+    ul.addEventListener('click', addSign);
+    function addSign() {
+      event.target.innerHTML = event.target.innerHTML + '!';
+    }
+
+    var button = document.getElementById('button');
+    button.addEventListener('click', addLi);
+
+    function addLi() {
+      var li = document.createElement('li');
+      li.innerHTML = 'new li';
+      ul.appendChild(li);
+    }
+
+  </script>
+
+  <!--p id="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua.
+    </p>
+
+    <p class='text'>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.
+    </p>
+
+    <p class="text">
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
+    </p>
+
+    <p class="text">
+      Excepteur sint occaecat cupidatat non proident, sunt in
+      culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <input type="text" value="!" class="test">
+    <input type="submit" id='test2' onclick="func()" value="click me">
+
+    <script>
+
+      function func() {
+        var elem = document.querySelectorAll('p');
+        for (var i = 0; i < elem.length; i++) {
+          elem[i].innerHTML = 'hello js';
+        }
+
+      }
+
+    </script-->
+
+
+  <!--script src="js/index-1.js"></script-->
 </body>
 
 </html>

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.carousel {
+    background-color: rgb(212, 166, 106);
+    display: inline;
+    border: 1px solid #cccccc;
+    
+    &__block {
+       width: 100px;
+      
+
+     &__item {
+      float: left;  
+     display: inline;
+
+        }
+    }
+}
+
+

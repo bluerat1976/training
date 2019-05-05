@@ -1,0 +1,9 @@
+.title {
+    display: inline;
+
+}
+
+.sweets .title::before{
+    display: none;
+
+}

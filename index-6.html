@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+  <!-- ваша верстка виджета, ваши стили -->
+  <div id="big">
+
+
+    <!--button class="arrow">⇦</button>
+    <button class="arrow">⇨</button>
+
+    <div id="medium">
+      <div id="small">
+      </div>
+    </div-->
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+ 
+  </div>
+
+ <button id='button'>main click</button>
+
+
+  <script>
+
+
+    var box = document.getElementById('big');
+    box.addEventListener('click', addSign);
+
+   function addSign() {
+    event.target.innerHTML = true;
+   
+   }
+    (addP, 5000);
+   
+    var button = document.getElementById('button');
+
+    button.addEventListener('click', addP);
+
+  function addP() {
+      var p = document.createElement('p');
+     p.innerHTML = 'new hello';
+      box.appendChild(p);
+
+    }
+
+
+
+
+
+
+
+  </script>
+
+  <!--script src="js/index-1.js"></script-->
+</body>
+
+</html>

@@ -4,6 +4,50 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f7efda;
+#elem {
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+
+.carousel-list {
+    width: 500px;
+    border: 1px solid #cccccc;
+
+    &__block {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline;
+    }
+
+    &__pict {
+       width: 100%;
+
+    }
+}
+
+#big {
+   background-color:  #c44052;
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  border: 1px solid #cccccc;
+}
+
+#medium {
+  background-color: #2677c4;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  border: 1px solid #cccccc;
+}
+
+#small {
+  background-color: #e7e55e;
+  width: 200px;
+  height: 200px;
+  margin:25px;
+  border: 1px solid #cccccc;
 }
