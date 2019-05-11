@@ -1,32 +1,26 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-
-    <meta charset="utf-8">
-    <style>
-        body * {
-            margin: 10px;
-        }
-    </style>
-    <link rel="stylesheet" href="styles.css">
-
+        <meta charset="utf-8">
+    <title>Использование JavaScript свойства target и currentTarget объекта Event</title>
 </head>
 
 <body>
+    <div>
+        <span>Элемент спан</span>
+        <p>Параграф</p>
+        <button>Кнопка</button>
+    </div>
+    <script>
+        const div = document.querySelector("div"); // находим первый элемент <div> в документе
+            div.addEventListener("click", showTargets); // регистрируем обработчик события "click" для элемента <div>
 
-    <input type="text" id="elem">
-
-<script>
-  // сфокусируется на input и вызовет обработчик onfocus
-  var elem = document.getElementById('elem');
- this.elem.focus('value','Фокус!') ;
-   
- 
-</script>
-   
-
-    <!--script src="js/index-1.js"></script-->
+        function showTargets(event) {
+            console.log("div currentTarget", event.currentTarget); // выводим в консоль значение свойства currentTarget
+            console.log("div target", event.target); // выводим в консоль значение свойства target
+        }
+    </script>
 </body>
 
 </html>
