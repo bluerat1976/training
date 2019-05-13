@@ -4,7 +4,7 @@
   "description": "Training of different themes",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass index.scss > index.css"
+    "sass": "node-sass index-8.scss > index-8.css"
   },
   "repository": {
     "type": "git",

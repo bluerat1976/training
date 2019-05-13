@@ -1,0 +1,23 @@
+.read-more-read-less .hide {
+  display: none; }
+
+.read-more-read-less__title {
+  background-color: #b67600;
+  color: aliceblue;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 18px; }
+
+.read-more-read-less__content {
+  color: #000000; }
+
+.read-more-read-less__dots, .read-more-read-less__more {
+  display: inline-block; }
+
+.read-more-read-less__cta {
+  background-color: #3982c7;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  padding: 4px 14px;
+  border-radius: 4px; }

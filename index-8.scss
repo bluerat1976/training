@@ -1,0 +1,32 @@
+.read-more-read-less {
+  .hide {
+    display: none;
+  }
+
+  &__title {
+    background-color: rgb(182, 118, 0);
+    color: aliceblue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 18px;
+
+  }
+
+  &__content {
+    color: #000000;
+  }
+
+  &__dots,
+  &__more {
+    display: inline-block;
+  }
+
+  &__cta {
+    background-color: rgb(57, 130, 199);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 4px 14px;
+    border-radius: 4px;
+  }
+}
