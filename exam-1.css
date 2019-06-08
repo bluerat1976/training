@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #cccccc;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    border: 1px solid #cccccc;
+}
+
+.left div,
+.right div {
+    display: flex;
+    background-color: #274a79;
+    border: 1px solid #cccccc;  
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+.left div {
+    flex-flow:row wrap;
+    flex: 1 1 50%;
+}
+
+.right div {
+    flex-flow: row wrap;
+    flex: 1 1 30.3%
+}
+
+p {
+    color: #ffffff;
+    font-size: 28px;
+}

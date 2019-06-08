@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="exam-1.css">
+
+</head>
+
+<body>
+
+    <script>
+
+        var login = prompt('Input login');
+
+        if (login == 'admin') {
+            var pass = prompt('Input password');
+
+            if (pass == 'superman') {
+                alert('Wellcome!');
+            } else if (pass == undefined) {
+                alert('Entrance is denide');
+            } else {
+                alert('Password is incorrect');
+            }
+
+        } else if (login == undefined) {
+            alert('Denide entrance');
+        } else {
+            alert('I do not know you');
+        }
+
+    </script>
+
+</body>
+
+</html>
